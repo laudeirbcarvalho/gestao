@@ -1,0 +1,17 @@
+# Ativa o módulo de reescrita
+RewriteEngine On
+
+# Define a base
+RewriteBase /
+
+# Exceção para arquivos estáticos (CSS, JS, imagens, etc.)
+RewriteCond %{REQUEST_URI} \.(jpg|jpeg|png|gif|css|js|ico|svg|ttf|woff|woff2|eot)$ [NC]
+RewriteRule ^ - [L]
+
+# Permite que o sistema identifique o subdomínio corretamente
+RewriteCond %{HTTP_HOST} ^([a-z0-9-]+)\.adlux\.com\.br$ [NC]
+RewriteRule ^ - [E=SUBDOMINIO:%1]
+
+# Opcional: redireciona para HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

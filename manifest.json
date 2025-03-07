@@ -1,0 +1,81 @@
+{
+  "id": "gestao.adlux.com.br",
+  "name": "Gestão Adlux",
+  "short_name": "Gestão Adlux",
+  "description": "Plataforma de gestão de clientes e pedidos da Adlux",
+  "icons": [
+      {
+          "src": "https://www.gestao.adlux.com.br/icone.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+      },
+      {
+          "src": "https://www.gestao.adlux.com.br/icone.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "maskable"
+      },
+      {
+          "src": "https://www.gestao.adlux.com.br/icone.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+      },
+      {
+          "src": "https://www.gestao.adlux.com.br/icone.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+      },
+      {
+          "src": "https://www.gestao.adlux.com.br/icone.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "monochrome"
+      }
+  ],
+  "screenshots": [
+      {
+          "src": "https://www.gestao.adlux.com.br/screenshots/screenshot1.png",
+          "sizes": "1080x1920",
+          "type": "image/png",
+          "label": "Tela principal do aplicativo"
+      },
+      {
+          "src": "https://www.gestao.adlux.com.br/screenshots/screenshot2.png",
+          "sizes": "1080x1920",
+          "type": "image/png",
+          "label": "Painel de gestão"
+      }
+  ],
+  "background_color": "#FFFFFF",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "dir": "ltr",
+  "orientation": "portrait",
+  "start_url": "/index.php",
+  "categories": [
+      "business",
+      "productivity"
+  ],
+  "scope": "/",
+  "shortcuts": [
+      {
+          "name": "Painel de Controle",
+          "url": "/painel.php",
+          "description": "Acessar o painel principal",
+          "icons": [
+              {
+                  "src": "https://www.gestao.adlux.com.br/icone.png",
+                  "sizes": "192x192"
+              }
+          ]
+      }
+  ],
+  "launch_handler": {
+      "client_mode": "auto"
+  },
+  "handle_links": "preferred",
+  "gcm_sender_id": "103953800507"
+}

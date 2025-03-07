@@ -1,0 +1,1 @@
+<iframe class="mapa-iframe" src="https://manaus.adlux.com.br/mapa.php" title="Mapa do Brasil"></iframe>

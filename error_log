@@ -1,0 +1,18 @@
+[02-Mar-2025 12:23:08 America/Sao_Paulo] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/adlux/gestao.adlux.com.br/index.php on line 2
+[02-Mar-2025 12:23:08 America/Sao_Paulo] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /home/adlux/gestao.adlux.com.br/index.php on line 5
+[02-Mar-2025 12:23:08 America/Sao_Paulo] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/adlux/gestao.adlux.com.br/index.php on line 8
+[02-Mar-2025 12:36:08 America/Sao_Paulo] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/adlux/gestao.adlux.com.br/index.php on line 2
+[02-Mar-2025 12:36:08 America/Sao_Paulo] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /home/adlux/gestao.adlux.com.br/index.php on line 5
+[02-Mar-2025 12:36:08 America/Sao_Paulo] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/adlux/gestao.adlux.com.br/index.php on line 8
+[02-Mar-2025 13:50:15 America/Sao_Paulo] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/adlux/gestao.adlux.com.br/index.php on line 2
+[02-Mar-2025 13:50:15 America/Sao_Paulo] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /home/adlux/gestao.adlux.com.br/index.php on line 5
+[02-Mar-2025 13:50:15 America/Sao_Paulo] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/adlux/gestao.adlux.com.br/index.php on line 8
+[03-Mar-2025 04:43:07 America/Sao_Paulo] PHP Warning:  Undefined array key "HTTP_USER_AGENT" in /home/adlux/gestao.adlux.com.br/index.php on line 2
+[03-Mar-2025 04:43:07 America/Sao_Paulo] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in /home/adlux/gestao.adlux.com.br/index.php on line 5
+[03-Mar-2025 04:43:07 America/Sao_Paulo] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/adlux/gestao.adlux.com.br/index.php on line 8
+[05-Mar-2025 12:08:48 America/Sao_Paulo] PHP Warning:  Undefined array key "email_empresa" in /home/adlux/gestao.adlux.com.br/cadastro_clientes_form.php on line 155
+[05-Mar-2025 12:08:48 America/Sao_Paulo] PHP Warning:  Undefined array key "tel_empresa" in /home/adlux/gestao.adlux.com.br/cadastro_clientes_form.php on line 156
+[05-Mar-2025 12:08:48 America/Sao_Paulo] PHP Warning:  Undefined array key "whats_empresa" in /home/adlux/gestao.adlux.com.br/cadastro_clientes_form.php on line 157
+[05-Mar-2025 12:09:09 America/Sao_Paulo] PHP Warning:  Undefined array key "email_empresa" in /home/adlux/gestao.adlux.com.br/cadastro_clientes_form.php on line 155
+[05-Mar-2025 12:09:09 America/Sao_Paulo] PHP Warning:  Undefined array key "tel_empresa" in /home/adlux/gestao.adlux.com.br/cadastro_clientes_form.php on line 156
+[05-Mar-2025 12:09:09 America/Sao_Paulo] PHP Warning:  Undefined array key "whats_empresa" in /home/adlux/gestao.adlux.com.br/cadastro_clientes_form.php on line 157

@@ -1,0 +1,155 @@
+[02-Mar-2025 05:52:31 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 05:52:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 05:52:32 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 05:52:32 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 06:13:27 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 06:13:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 10:57:15 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 10:57:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 10:57:15 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[02-Mar-2025 10:57:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 05:37:52 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 05:37:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 05:37:52 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 05:37:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 07:12:22 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 07:12:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 11:45:29 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 11:45:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 11:45:30 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 11:45:30 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 18:13:54 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[03-Mar-2025 18:13:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 05:35:04 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 05:35:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 05:35:04 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 05:35:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 06:59:53 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 06:59:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 12:02:48 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 12:02:48 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 12:02:58 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 12:02:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 12:31:04 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 12:31:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 12:31:05 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 12:31:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 20:44:46 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 20:44:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 20:44:50 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[04-Mar-2025 20:44:50 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 05:49:09 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 05:49:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 05:49:10 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 05:49:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 06:12:05 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 06:12:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 12:02:34 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 12:02:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 12:02:49 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[05-Mar-2025 12:02:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[06-Mar-2025 11:07:44 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[06-Mar-2025 11:07:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[06-Mar-2025 11:07:44 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[06-Mar-2025 11:07:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[06-Mar-2025 18:30:15 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[06-Mar-2025 18:30:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[07-Mar-2025 05:35:59 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[07-Mar-2025 05:35:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[07-Mar-2025 05:36:01 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[07-Mar-2025 05:36:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[07-Mar-2025 06:53:55 America/Sao_Paulo] PHP Warning:  require_once(../db.php): Failed to open stream: No such file or directory in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1
+[07-Mar-2025 06:53:55 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required '../db.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/adlux/gestao.adlux.com.br/privacy/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/privacy/index.php on line 1

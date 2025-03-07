@@ -1,0 +1,224 @@
+[03-Mar-2025 16:19:26 America/Sao_Paulo] PHP Warning:  Undefined array key "HTTP_REFERER" in /home/adlux/gestao.adlux.com.br/sistema/protege.php on line 8
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "email" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 82
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "first_name" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 83
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "last_name" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 84
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "username" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 85
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "role" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 86
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 87
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 87
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 88
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 88
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 89
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 89
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 90
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 90
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 91
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 91
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 92
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 92
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 93
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 93
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 94
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 94
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 95
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 95
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 96
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 96
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 97
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 97
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 98
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 98
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 99
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 99
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 100
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 100
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 101
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 101
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 102
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 102
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 103
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 103
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 104
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 104
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 105
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 105
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 106
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 106
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 107
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 107
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 108
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 108
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 109
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 109
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 110
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 110
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 111
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 111
+[03-Mar-2025 16:19:36 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:15
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(15): mysqli->prepare('INSERT INTO usu...')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(115): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 15
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "email" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 82
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "first_name" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 83
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "last_name" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 84
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "username" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 85
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "role" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 86
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 87
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 87
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 88
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 88
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 89
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 89
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 90
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 90
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 91
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 91
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 92
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 92
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 93
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 93
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 94
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 94
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 95
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 95
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 96
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 96
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 97
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 97
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 98
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 98
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 99
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 99
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 100
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 100
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "billing" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 101
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 101
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 102
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 102
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 103
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 103
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 104
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 104
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 105
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 105
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 106
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 106
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 107
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 107
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 108
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 108
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 109
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 109
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 110
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 110
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Undefined array key "shipping" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 111
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 111
+[03-Mar-2025 16:20:30 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:15
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(15): mysqli->prepare('INSERT INTO cli...')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(115): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 15
+[03-Mar-2025 16:24:29 America/Sao_Paulo] PHP Warning:  Undefined array key "email" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 82
+[03-Mar-2025 16:24:29 America/Sao_Paulo] PHP Warning:  Undefined array key "first_name" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 83
+[03-Mar-2025 16:24:29 America/Sao_Paulo] PHP Warning:  Undefined array key "last_name" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 84
+[03-Mar-2025 16:24:29 America/Sao_Paulo] PHP Warning:  Undefined array key "username" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 85
+[03-Mar-2025 16:24:29 America/Sao_Paulo] PHP Warning:  Undefined array key "role" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 86
+[03-Mar-2025 16:24:29 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:15
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(15): mysqli->prepare('INSERT INTO cli...')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(115): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 15
+[03-Mar-2025 16:25:03 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:15
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(15): mysqli->prepare('INSERT INTO cli...')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(115): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 15
+[03-Mar-2025 16:28:12 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:15
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(15): mysqli->prepare('INSERT INTO cli...')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(115): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 15
+[03-Mar-2025 16:29:05 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:15
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(15): mysqli->prepare('INSERT INTO cli...')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(117): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 15
+[03-Mar-2025 16:29:47 America/Sao_Paulo] PHP Fatal error:  Uncaught mysqli_sql_exception: Column count doesn't match value count at row 1 in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:16
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(16): mysqli->prepare('INSERT INTO cli...')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(127): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 16
+[03-Mar-2025 16:31:36 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected single-quoted string "billing_country", expecting "]" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 95
+[03-Mar-2025 16:31:38 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected single-quoted string "billing_country", expecting "]" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 95
+[03-Mar-2025 16:32:08 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:51
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(51): mysqli_stmt->bind_param('issssssssssssss...', 755, '2025-02-03T17:5...', '2025-02-03T17:5...', 'adluxacademy@gm...', 'Laudeir', 'Adlux Academy T...', 'SALAO_adluxacad...', 'customer', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', true, 'Brazil', 'S\xC3\xA3o Paulo', 'adluxacademy@gm...', '15997385426', '', '', '', '', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', '15997385426')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(118): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 51
+[03-Mar-2025 16:33:41 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:51
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(51): mysqli_stmt->bind_param('issssssssssssss...', 755, '2025-02-03T17:5...', '2025-02-03T17:5...', 'adluxacademy@gm...', 'Laudeir', 'Adlux Academy T...', 'SALAO_adluxacad...', 'customer', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', true, 'Brazil', 'S\xC3\xA3o Paulo', 'adluxacademy@gm...', '15997385426', '', '', '', '', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', '15997385426')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(118): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 51
+[03-Mar-2025 16:34:40 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:53
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(53): mysqli_stmt->bind_param('issssssssssssss...', 755, '2025-02-03T17:5...', '2025-02-03T17:5...', 'adluxacademy@gm...', 'Laudeir', 'Adlux Academy T...', 'SALAO_adluxacad...', 'customer', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', true, 'Brazil', 'S\xC3\xA3o Paulo', 'adluxacademy@gm...', '15997385426', '', '', '', '', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', '15997385426')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(121): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 53
+[03-Mar-2025 16:35:50 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:51
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(51): mysqli_stmt->bind_param('issssssssssssss...', 755, '2025-02-03T17:5...', '2025-02-03T17:5...', 'adluxacademy@gm...', 'Laudeir', 'Adlux Academy T...', 'SALAO_adluxacad...', 'customer', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', 'adluxacademy@gm...', '15997385426', '', '', '', '', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', '15997385426')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(117): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 51
+[03-Mar-2025 16:37:31 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:51
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(51): mysqli_stmt->bind_param('issssssssssssss...', 755, '2025-02-03T17:5...', '2025-02-03T17:5...', 'adluxacademy@gm...', 'Laudeir', 'Adlux Academy T...', 'SALAO_adluxacad...', 'customer', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', 'adluxacademy@gm...', '15997385426', '', '', '', '', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', '15997385426')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(117): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 51
+[03-Mar-2025 16:43:34 America/Sao_Paulo] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:51
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(51): mysqli_stmt->bind_param('issssssssssssss...', 755, '2025-02-03T17:5...', '2025-02-03T17:5...', 'adluxacademy@gm...', 'Laudeir', 'Adlux Academy T...', 'SALAO_adluxacad...', 'customer', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', 'adluxacademy@gm...', '15997385426', '', '', '', '', 'Laudeir', 'Adlux Academy T...', '', 'Rua Ven\xC3\xA2ncio P...', 'casa', 'Tatu\xC3\xAD', '18277049', 'Brazil', 'S\xC3\xA3o Paulo', '15997385426')
+#1 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(126): saveUser(Object(mysqli), Array)
+#2 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 51
+[03-Mar-2025 17:00:55 America/Sao_Paulo] PHP Warning:  Undefined array key "roles" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 111
+[03-Mar-2025 17:00:55 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php:111
+Stack trace:
+#0 /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php(111): implode(', ', NULL)
+#1 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/importar_clientes_woocomerce.php on line 111
+[05-Mar-2025 11:05:33 America/Sao_Paulo] PHP Warning:  Undefined array key "HTTP_REFERER" in /home/adlux/gestao.adlux.com.br/sistema/protege.php on line 8
+[06-Mar-2025 13:18:06 America/Sao_Paulo] PHP Warning:  Undefined array key "id" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/criar_pedidos_woocomerce.php on line 364
+[06-Mar-2025 13:18:11 America/Sao_Paulo] PHP Warning:  Undefined array key "id" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/criar_pedidos_woocomerce.php on line 364
+[06-Mar-2025 15:41:41 America/Sao_Paulo] PHP Warning:  Undefined variable $res in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 133
+[06-Mar-2025 17:42:06 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:43:59 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:44:02 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:44:22 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:45:09 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:45:34 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:45:44 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:46:16 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, int given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:46:29 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, int given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 229
+[06-Mar-2025 17:49:32 America/Sao_Paulo] PHP Warning:  Array to string conversion in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 318
+[06-Mar-2025 17:49:47 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected variable "$a" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 318
+[06-Mar-2025 17:52:14 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php:319
+Stack trace:
+#0 {main}
+  thrown in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 319
+[06-Mar-2025 17:54:24 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 319
+[06-Mar-2025 17:55:19 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, string given in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 319
+[06-Mar-2025 17:55:51 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected token "[", expecting variable or "{" or "$" in /home/adlux/gestao.adlux.com.br/sistema/woocomerce/integra_produtos_woo_shopify.php on line 319
