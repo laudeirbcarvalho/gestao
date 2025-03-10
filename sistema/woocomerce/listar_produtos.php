@@ -236,9 +236,18 @@ HTML;
             }
         }
 
+        // Campo Estoque ajustado para ser editável
+        if ($_SESSION["permissao"] === "admin") {
+            echo "<td class='editable' data-sku='{$sku}' data-field='estoque' data-value='{$estoque}'>
+        <span class='stock-text text-primary'><b>{$estoque}</b></span>
+        <input type='number' class='stock-input' value='{$estoque}' style='display:none;'></td>";
+        } else {
+            echo "<td><b>{$estoque}</b></td>";
+        }
+
         echo "
          
-        <td><b>{$estoque}</b></td>
+       
         <td>{$categories}</td>
         <td>{$tags}</td>
         <td>{$status}</td>
@@ -364,34 +373,66 @@ document.getElementById('integrarProdutosShopifyCriarProdutos').addEventListener
     priceCell.find('.price-input').show().focus();
 });
 
-$('.price-input').on('blur keyup', function (e) {
-    if (e.type === 'blur' || e.key === 'Enter') {
-        var priceCell = $(this).closest('td');
-        var newValue = $(this).val();
-        var sku = priceCell.data('sku');
-        var field = priceCell.data('field');
+$(document).ready(function() {
+    // Tornar os campos editáveis clicáveis
+    $('.editable').on('click', function() {
+        var $td = $(this);
+        var $span = $td.find('span');
+        var $input = $td.find('input');
+        
+        $span.hide();
+        $input.show().focus();
+    });
 
-        console.log('Novo valor:', newValue, 'SKU:', sku, 'Campo:', field); // Log dos dados enviados
+    // Tratar blur e Enter para price-input e stock-input
+    $('.price-input, .stock-input').on('blur keyup', function(e) {
+        if (e.type === 'blur' || e.key === 'Enter') {
+            var $cell = $(this).closest('td');
+            var newValue = $(this).val();
+            var sku = $cell.data('sku');
+            var field = $cell.data('field');
 
-        $.ajax({
-            url: 'sistema/woocomerce/update_price.php',
-            method: 'POST',
-            data: {
-                sku: sku,
-                field: field,
-                value: newValue
-            },
-            success: function (response) {
-                console.log('Resposta do servidor:', response); // Log da resposta do PHP
-                priceCell.data('value', newValue);
-                priceCell.find('.price-text').text('R$ ' + newValue).show();
-                priceCell.find('.price-input').hide();
-            },
-            error: function () {
-                alert('Erro ao salvar o preço. Tente novamente.');
+            // Validação básica no frontend
+            if (!newValue || newValue <= 0) {
+                alert('O valor deve ser um número maior que zero.');
+                return;
             }
-        });
-    }
+
+            console.log('Novo valor:', newValue, 'SKU:', sku, 'Campo:', field); // Log dos dados enviados
+
+            // Enviar os dados via AJAX
+            $.ajax({
+                url: 'sistema/woocomerce/update_price.php', // Ajuste o caminho se necessário
+                method: 'POST',
+                data: {
+                    sku: sku,
+                    field: field,
+                    value: newValue
+                },
+                success: function(response) {
+                    console.log('Resposta do servidor:', response); // Log da resposta do PHP
+                    
+                    // Atualizar o valor exibido na célula
+                    if (field === 'estoque') {
+                        $cell.find('.stock-text').html('<b>' + newValue + '</b>').show();
+                    } else {
+                        $cell.find('.price-text').text('R$ ' + newValue).show();
+                    }
+                    $cell.data('value', newValue);
+                    $cell.find('input').hide();
+
+                    // Verificar se o servidor retornou um erro
+                    if (response.includes('Erro') || response.includes('inválido')) {
+                        alert(response);
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error('Erro ao salvar:', error);
+                    alert('Erro ao salvar o valor. Tente novamente.');
+                }
+            });
+        }
+    });
 });
 
     

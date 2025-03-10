@@ -4,28 +4,34 @@ require_once('../../sistema/protege.php');
 
 // Verifica se os dados foram enviados corretamente
 if (isset($_POST['sku'], $_POST['field'], $_POST['value'])) {
-    $sku = $_POST['sku'];
-    $field = $_POST['field'];
-    $value = $_POST['value'];
-    $central_id = $sessao_central; 
+    $sku = sanitize_text_field($_POST['sku']);
+    $field = sanitize_text_field($_POST['field']);
+    $value = floatval($_POST['value']); // Converte para número
+    $central_id = $sessao_central;
 
-    // Verificar se o valor é numérico e maior que zero
-    if (!is_numeric($value) || $value <= 0) {
-        echo "Valor inválido. O preço deve ser um número maior que zero.";
+    // Verificar se o campo é válido
+    $allowed_fields = ['preco_salao', 'preco_final', 'preco_mktplace', 'estoque'];
+    if (!in_array($field, $allowed_fields)) {
+        echo "Campo inválido.";
         exit();
     }
 
-    // Atualiza o preço na tabela 'produtos'
+    // Verificar se o valor é numérico e maior que zero
+    if (!is_numeric($value) || $value < 0) { // Permitir zero para estoque, se desejar
+        echo "Valor inválido. O valor deve ser um número maior ou igual a zero.";
+        exit();
+    }
+
+    // Atualiza o valor na tabela 'produtos'
     $sql = "UPDATE produtos SET {$field} = ? WHERE sku = ?";
     $stmt = $conn->prepare($sql);
     $stmt->bind_param('ds', $value, $sku);
 
     if ($stmt->execute()) {
-        echo "<script> alert('Preço atualizado com sucesso na tabela produtos!');</script>";
+        $response = "Valor atualizado com sucesso na tabela produtos!";
     } else {
-        echo "<script> alert('Erro ao atualizar o preço na tabela produtos.');</script>";
+        $response = "Erro ao atualizar o valor na tabela produtos.";
     }
-
     $stmt->close();
 
     // Verificar se o SKU já existe na tabela 'precos_e_estoques' para essa 'central_id'
@@ -38,17 +44,16 @@ if (isset($_POST['sku'], $_POST['field'], $_POST['value'])) {
     $stmt_check->close();
 
     if ($count > 0) {
-        // Atualiza o preço se o SKU já existir
+        // Atualiza o valor se o SKU já existir
         $sql_update = "UPDATE precos_e_estoques SET {$field} = ? WHERE sku = ? AND central_id = ?";
         $stmt_update = $conn->prepare($sql_update);
         $stmt_update->bind_param('dsi', $value, $sku, $central_id);
         
         if ($stmt_update->execute()) {
-            echo "Preço atualizado com sucesso na tabela preços!";
+            $response .= " Valor atualizado com sucesso na tabela precos_e_estoques!";
         } else {
-            echo "Erro ao atualizar o preço.";
+            $response .= " Erro ao atualizar o valor na tabela precos_e_estoques.";
         }
-        
         $stmt_update->close();
     } else {
         // Insere um novo registro se o SKU não existir para a central_id
@@ -57,14 +62,16 @@ if (isset($_POST['sku'], $_POST['field'], $_POST['value'])) {
         $stmt_insert->bind_param('sid', $sku, $central_id, $value);
         
         if ($stmt_insert->execute()) {
-            echo "Novo preço inserido com sucesso na tabela preços!";
+            $response .= " Novo valor inserido com sucesso na tabela precos_e_estoques!";
         } else {
-            echo "Erro ao inserir novo preço.";
+            $response .= " Erro ao inserir novo valor na tabela precos_e_estoques.";
         }
-        
         $stmt_insert->close();
     }
+
+    // Retornar resposta como JSON para melhor integração com o JavaScript
+    echo json_encode(['success' => !str_contains($response, 'Erro'), 'message' => $response]);
 } else {
-    echo "Dados incompletos.";
+    echo json_encode(['success' => false, 'message' => 'Dados incompletos.']);
 }
 ?>
