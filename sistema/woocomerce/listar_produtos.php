@@ -373,14 +373,22 @@ document.getElementById('integrarProdutosShopifyCriarProdutos').addEventListener
     priceCell.find('.price-input').show().focus();
 });
 
+$('.price-text, .stock-text').on('click', function () {
+    var cell = $(this).closest('td');
+    var input = cell.find('input');
+    
+    $(this).hide();
+    input.show().focus();
+});
+
 $('.price-input, .stock-input').on('blur keyup', function (e) {
     if (e.type === 'blur' || e.key === 'Enter') {
-        var priceCell = $(this).closest('td');
+        var cell = $(this).closest('td');
         var newValue = $(this).val();
-        var sku = priceCell.data('sku');
-        var field = priceCell.data('field');
+        var sku = cell.data('sku');
+        var field = cell.data('field'); // Define se é preço ou estoque
 
-        console.log('Novo valor:', newValue, 'SKU:', sku, 'Campo:', field); // Log dos dados enviados
+        console.log('Novo valor:', newValue, 'SKU:', sku, 'Campo:', field);
 
         $.ajax({
             url: 'sistema/woocomerce/update_price.php',
@@ -391,21 +399,18 @@ $('.price-input, .stock-input').on('blur keyup', function (e) {
                 value: newValue
             },
             success: function (response) {
-                console.log('Resposta do servidor:', response); // Log da resposta do PHP
-                priceCell.data('value', newValue);
-                priceCell.find('.price-text').text('R$ ' + newValue).show();
-                priceCell.find('.price-input').hide();
-
-                stockCell.data('value', newValue);
-                stockCell.find('.stock-text').text(newValue).show();
-                stockCell.find('.stock-input').hide();
+                console.log('Resposta do servidor:', response);
+                cell.data('value', newValue);
+                cell.find('.price-text, .stock-text').text(newValue).show();
+                cell.find('.price-input, .stock-input').hide();
             },
             error: function () {
-                alert('Erro ao salvar o preço. Tente novamente.');
+                alert('Erro ao salvar a alteração. Tente novamente.');
             }
         });
     }
 });
+
 
     
     
