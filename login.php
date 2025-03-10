@@ -85,7 +85,7 @@ require_once('sistema/template/header/header.php');
         <img width="100" class="img-fluid" src="<?=ICONE?>" alt="<?=NOME_EMPRESA?>" class="logo" />
       </div>
       <div class="col-9">
-        <h1> <?=NOME_SISTEMA?></h1>
+        <h1><?=NOME_SISTEMA?></h1>
         <h5><?=NOME_EMPRESA?></h5>
         <h6><?=$dominio_atual?></h6>
       </div>
