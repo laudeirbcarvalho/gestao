@@ -3,8 +3,10 @@ require_once('../../sistema/db.php');
 require_once('../../sistema/protege.php');
 
 if (isset($_POST['sku'], $_POST['field'], $_POST['value'])) {
-    $sku = sanitize_text_field($_POST['sku']);
-    $field = sanitize_text_field($_POST['field']);
+
+    $sku = htmlspecialchars($_POST['sku'], ENT_QUOTES, 'UTF-8');
+    $field = htmlspecialchars($_POST['field'], ENT_QUOTES, 'UTF-8');
+
     $value = ($field == 'estoque') ? intval($_POST['value']) : floatval($_POST['value']); // Usa inteiro para estoque, float para preços
     $central_id = $sessao_central;
 

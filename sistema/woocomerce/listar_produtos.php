@@ -386,9 +386,9 @@ $('.price-input, .stock-input').on('blur keyup', function (e) {
         var cell = $(this).closest('td');
         var newValue = $(this).val();
         var sku = cell.data('sku');
-        var field = cell.data('field');
+        var field = cell.data('field'); // Define se é preço ou estoque
 
-        console.log('Novo valor:', newValue, 'SKU:', sku, 'Campo:', field); // Log para depuração
+        console.log('Novo valor:', newValue, 'SKU:', sku, 'Campo:', field);
 
         $.ajax({
             url: 'sistema/woocomerce/update_price.php',
@@ -399,36 +399,17 @@ $('.price-input, .stock-input').on('blur keyup', function (e) {
                 value: newValue
             },
             success: function (response) {
-                console.log('Resposta do servidor:', response); // Verificar a resposta do PHP
-                var jsonResponse = JSON.parse(response);
-
-                if (jsonResponse.success) {
-                    cell.data('value', newValue);
-                    if (field === 'estoque') {
-                        cell.find('.stock-text').html("<b>" + newValue + "</b>").show();
-                        cell.find('.stock-input').hide();
-                    } else {
-                        cell.find('.price-text').text("R$ " + newValue).show();
-                        cell.find('.price-input').hide();
-                    }
-                } else {
-                    alert(jsonResponse.message);
-                }
+                console.log('Resposta do servidor:', response);
+                cell.data('value', newValue);
+                cell.find('.price-text, .stock-text').text(newValue).show();
+                cell.find('.price-input, .stock-input').hide();
             },
             error: function () {
-                alert('Erro ao salvar os dados. Tente novamente.');
+                alert('Erro ao salvar a alteração. Tente novamente.');
             }
         });
     }
 });
-
-// Quando clicar no texto, exibir o input para edição
-$('.editable').on('click', function () {
-    var cell = $(this);
-    cell.find('.stock-text, .price-text').hide();
-    cell.find('.stock-input, .price-input').show().focus();
-});
-
 
 
     

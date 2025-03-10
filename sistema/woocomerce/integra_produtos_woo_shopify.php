@@ -287,12 +287,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     // Criar o inventário logo após criar o produto
                     $response_inventory = adjustInventory($shopify_store, $access_token, $product_data['inventory_item_id'], $location_id, $new_quantity);
                     echo "<div class='alert alert-success mt-3' role='alert'>
-          <i class='bi bi-check-lg'></i> Inventário de $new_quantity unidades para o novo produto SKU $sku_ajustado , criado na shopify.<br>";
+          <i class='fa fa-check'></i> Inventário de $new_quantity unidades para o novo produto SKU $sku_ajustado , criado na shopify.<br>";
 
                     // Ativar o rastreamento de quantidade
                     enableInventoryTracking($shopify_store, $access_token, $product_data['inventory_item_id']);
                     echo "<div class='alert alert-success mt-3' role='alert'>
-          <i class='bi bi-check-lg'></i> Produto criado com inventário de $new_quantity unidades para o SKU $sku_ajustado e rastreamento ativado.<br>";
+          <i class='fa fa-check'></i> Produto criado com inventário de $new_quantity unidades para o SKU $sku_ajustado e rastreamento ativado.<br>";
                 }
 
                 $inventory_item_id = $product_data['inventory_item_id'] ?? null;
@@ -303,16 +303,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 // Ajustar inventário no Shopify
                 adjustInventory($shopify_store, $access_token, $inventory_item_id, $location_id, $new_quantity);
                 echo "<div class='alert alert-success mt-3' role='alert'>
-                <i class='bi bi-check-lg'></i> Inventário ajustado para $new_quantity unidades para o SKU $sku_ajustado.<br>";
+                ID do Produto na Loja: <b> $product_id </b> <br>
+                <i class='fa fa-check'></i> Inventário ajustado para $new_quantity unidades para o SKU $sku_ajustado.<br>";
 
                 // Ajustar preço no Shopify
                 
                 adjustPrice($shopify_store, $access_token, $variant_id, $new_price);
-                echo "<i class='bi bi-check-lg'></i> Preço ajustado para R$ $new_price.<br>";
+                echo "<i class='fa fa-check'></i> Preço ajustado para R$ $new_price.<br>";
 
                 // Ajustar título e descrição no Shopify
                  adjustTitleAndDescription($shopify_store, $access_token, $product_id, $new_title, $new_description, $category);
-                echo "<i class='bi bi-check-lg'></i> Título e descrição ajustados. E categoria ($category).<br>";
+                echo "<i class='fa fa-check'></i> Título e descrição ajustados. E categoria ($category).<br>";
 
                 //Pega o id da imagem na shopify
                 $a = adjustPrice($shopify_store, $access_token, $variant_id, $new_price);
@@ -323,7 +324,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                  addProductImage($shopify_store, $access_token, $product_id, $image_url);
                  
 
-                echo "<i class='bi bi-check-lg'></i> Imagem adicionada ao produto. ID: $product_id<br></div>";
+                echo "<i class='fa fa-check'></i> Imagem adicionada ao produto.<br></div>";
 
                 // Atualizar o campo 'atualizado_em_shopify' após atualização do inventário
                 $data_atual = date('Y-m-d H:i:s');
