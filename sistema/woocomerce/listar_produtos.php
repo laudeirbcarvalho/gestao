@@ -118,7 +118,7 @@ function listWooCommerceProducts($central_id)
 
     <!-- Exibir o total de produtos por status -->
     <div class="mb-3">
-        <strong>Status de Produtos:</strong>
+        <strong>Status de Produtos*:</strong>
         <span class="badge badge-success">Publicado: <span id="published-count">0</span></span>
         <span class="badge badge-danger">Oculto: <span id="pending-count">0</span></span>
         <span class="badge badge-dark">Pendente: <span id="draft-count">0</span></span>
