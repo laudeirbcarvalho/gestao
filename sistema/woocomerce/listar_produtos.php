@@ -168,12 +168,12 @@ HTML;
         $status = isset($product['status']) ? $product['status'] : 'N/A';
         $slug = isset($product['slug']) ? $product['slug'] : 'N/A';
         $tags = isset($product['tags']) ? $product['tags'] : 'N/A';
-    
+
         $updated_at = isset($product['atualizado_em']) ? $product['atualizado_em'] : null;
         $updated_at_shopify = isset($product['atualizado_em_shopify']) ? $product['atualizado_em_shopify'] : null;
-    
+
         $categories = isset($product['categorias']) ? $product['categorias'] : 'Sem categoria';
-    
+
         // Contar o status
         if ($status == "publish") {
             $status = '<div class="p-2 bg-success text-white text-center">Publicado</div>';
@@ -185,7 +185,7 @@ HTML;
             $status = '<div class="p-2 bg-dark text-white text-center">Pendente</div>';
             $draftCount++;
         }
-    
+
         // Convertendo e formatando as datas
         if ($updated_at) {
             $updated_at = DateTime::createFromFormat('Y-m-d H:i:s', $updated_at);
@@ -195,7 +195,7 @@ HTML;
         } else {
             $formatted_date_woo = 'Não disponível';
         }
-    
+
         if ($updated_at_shopify) {
             $updated_at_shopify = DateTime::createFromFormat('Y-m-d H:i:s', $updated_at_shopify);
             $formatted_date_shopify = $updated_at_shopify instanceof DateTime
@@ -204,61 +204,60 @@ HTML;
         } else {
             $formatted_date_shopify = 'Não disponível';
         }
-    
+
         // Exibir produto na tabela
         echo "<tr>
-            <td><input type='checkbox' class='product-checkbox' data-sku='{$sku}'></td>
-            <td>{$sku}</td>
-            <td>
-                <img title='$imagem' src='$imagem' alt='Imagem do Produto' style='width: 100px; height: auto;'>
-              ";
+        <td><input type='checkbox' class='product-checkbox' data-sku='{$sku}'></td>
+        <td>{$sku}</td>
+        <td>
+            <img title='$imagem' src='$imagem' alt='Imagem do Produto' style='width: 100px; height: auto;'>
+          ";
         if (CENTRAL_SUPERUSER == "superuser") {
             if ($_SESSION["permissao"] === "admin") {
                 echo "<i class='btn-alterar-imagem fa fa-fw fa-camera-retro' data-sku='{$sku}' data-imagem='{$imagem}'></i>
-                <div id='retornoimagem'></div>";
+            <div id='retornoimagem'></div>";
             }
         }
         echo "</td>
-            <td>{$nomeproduto}</td>";
-    
+        <td>{$nomeproduto}</td>";
+
         if (CENTRAL_SUPERUSER == "superuser") {
             echo "<td>R$ {$preco_cd}</td>";
         }
-    
-        // Campos editáveis (preços)
+
         foreach (['preco_salao', 'preco_final', 'preco_mktplace'] as $campo) {
             $valor = $$campo;
             if ($_SESSION["permissao"] === "admin") {
                 echo "<td class='editable' data-sku='{$sku}' data-field='{$campo}' data-value='{$valor}'>
                     <span class='price-text text-primary'>R$ {$valor}</span>
-                    <input type='number' class='price-input' value='{$valor}' style='display:none;'>
-                </td>";
+                    <input type='number' class='price-input' value='{$valor}' style='display:none;'></td>";
             } else {
                 echo "<td><span class='price-text text-primary'>R$ {$valor}</span></td>";
             }
         }
-    
-        // Campo editável (estoque)
+
+        // Campo Estoque ajustado para ser editável
         if ($_SESSION["permissao"] === "admin") {
             echo "<td class='editable' data-sku='{$sku}' data-field='estoque' data-value='{$estoque}'>
-                <span class='stock-text text-primary'><b>{$estoque}</b></span>
-                <input type='number' class='stock-input' value='{$estoque}' style='display:none;'>
-            </td>";
+        <span class='stock-text text-primary'><b>{$estoque}</b></span>
+        <input type='number' class='stock-input' value='{$estoque}' style='display:none;'></td>";
         } else {
             echo "<td><b>{$estoque}</b></td>";
         }
-    
+
         echo "
-            <td>{$categories}</td>
-            <td>{$tags}</td>
-            <td>{$status}</td>
-            <td>
-                <span class='badge badge-success'>{$nome_woo}</span>
-                {$formatted_date_woo}</br>
-                <span class='badge badge-success'>{$nome_shopify}</span>
-                {$formatted_date_shopify}</br>
-            </td>
-        </tr>";
+         
+       
+        <td>{$categories}</td>
+        <td>{$tags}</td>
+        <td>{$status}</td>
+        <td>
+        <span class='badge badge-success'>{$nome_woo}</span>
+        {$formatted_date_woo}</br>
+        <span class='badge badge-success'>{$nome_shopify}</span>
+        {$formatted_date_shopify}</br>
+        </td>
+    </tr>";
     }
 
 
@@ -374,66 +373,38 @@ document.getElementById('integrarProdutosShopifyCriarProdutos').addEventListener
     priceCell.find('.price-input').show().focus();
 });
 
-$(document).ready(function() {
-    // Tornar os campos editáveis clicáveis
-    $('.editable').on('click', function() {
-        var $td = $(this);
-        var $span = $td.find('span');
-        var $input = $td.find('input');
-        
-        $span.hide();
-        $input.show().focus();
-    });
+$('.price-input, .stock-input').on('blur keyup', function (e) {
+    if (e.type === 'blur' || e.key === 'Enter') {
+        var priceCell = $(this).closest('td');
+        var newValue = $(this).val();
+        var sku = priceCell.data('sku');
+        var field = priceCell.data('field');
 
-    // Tratar blur e Enter para price-input e stock-input
-    $('.price-input, .stock-input').on('blur keyup', function(e) {
-        if (e.type === 'blur' || e.key === 'Enter') {
-            var $cell = $(this).closest('td');
-            var newValue = $(this).val();
-            var sku = $cell.data('sku');
-            var field = $cell.data('field');
+        console.log('Novo valor:', newValue, 'SKU:', sku, 'Campo:', field); // Log dos dados enviados
 
-            // Validação básica no frontend
-            if (!newValue || newValue <= 0) {
-                alert('O valor deve ser um número maior que zero.');
-                return;
+        $.ajax({
+            url: 'sistema/woocomerce/update_price.php',
+            method: 'POST',
+            data: {
+                sku: sku,
+                field: field,
+                value: newValue
+            },
+            success: function (response) {
+                console.log('Resposta do servidor:', response); // Log da resposta do PHP
+                priceCell.data('value', newValue);
+                priceCell.find('.price-text').text('R$ ' + newValue).show();
+                priceCell.find('.price-input').hide();
+
+                stockCell.data('value', newValue);
+                stockCell.find('.stock-text').text(newValue).show();
+                stockCell.find('.stock-input').hide();
+            },
+            error: function () {
+                alert('Erro ao salvar o preço. Tente novamente.');
             }
-
-            console.log('Novo valor:', newValue, 'SKU:', sku, 'Campo:', field); // Log dos dados enviados
-
-            // Enviar os dados via AJAX
-            $.ajax({
-                url: 'sistema/woocomerce/update_price.php', // Ajuste o caminho se necessário
-                method: 'POST',
-                data: {
-                    sku: sku,
-                    field: field,
-                    value: newValue
-                },
-                success: function(response) {
-                    console.log('Resposta do servidor:', response); // Log da resposta do PHP
-                    
-                    // Atualizar o valor exibido na célula
-                    if (field === 'estoque') {
-                        $cell.find('.stock-text').html('<b>' + newValue + '</b>').show();
-                    } else {
-                        $cell.find('.price-text').text('R$ ' + newValue).show();
-                    }
-                    $cell.data('value', newValue);
-                    $cell.find('input').hide();
-
-                    // Verificar se o servidor retornou um erro
-                    if (response.includes('Erro') || response.includes('inválido')) {
-                        alert(response);
-                    }
-                },
-                error: function(xhr, status, error) {
-                    console.error('Erro ao salvar:', error);
-                    alert('Erro ao salvar o valor. Tente novamente.');
-                }
-            });
-        }
-    });
+        });
+    }
 });
 
     
