@@ -168,12 +168,12 @@ HTML;
         $status = isset($product['status']) ? $product['status'] : 'N/A';
         $slug = isset($product['slug']) ? $product['slug'] : 'N/A';
         $tags = isset($product['tags']) ? $product['tags'] : 'N/A';
-
+    
         $updated_at = isset($product['atualizado_em']) ? $product['atualizado_em'] : null;
         $updated_at_shopify = isset($product['atualizado_em_shopify']) ? $product['atualizado_em_shopify'] : null;
-
+    
         $categories = isset($product['categorias']) ? $product['categorias'] : 'Sem categoria';
-
+    
         // Contar o status
         if ($status == "publish") {
             $status = '<div class="p-2 bg-success text-white text-center">Publicado</div>';
@@ -185,7 +185,7 @@ HTML;
             $status = '<div class="p-2 bg-dark text-white text-center">Pendente</div>';
             $draftCount++;
         }
-
+    
         // Convertendo e formatando as datas
         if ($updated_at) {
             $updated_at = DateTime::createFromFormat('Y-m-d H:i:s', $updated_at);
@@ -195,7 +195,7 @@ HTML;
         } else {
             $formatted_date_woo = 'Não disponível';
         }
-
+    
         if ($updated_at_shopify) {
             $updated_at_shopify = DateTime::createFromFormat('Y-m-d H:i:s', $updated_at_shopify);
             $formatted_date_shopify = $updated_at_shopify instanceof DateTime
@@ -204,60 +204,61 @@ HTML;
         } else {
             $formatted_date_shopify = 'Não disponível';
         }
-
+    
         // Exibir produto na tabela
         echo "<tr>
-        <td><input type='checkbox' class='product-checkbox' data-sku='{$sku}'></td>
-        <td>{$sku}</td>
-        <td>
-            <img title='$imagem' src='$imagem' alt='Imagem do Produto' style='width: 100px; height: auto;'>
-          ";
+            <td><input type='checkbox' class='product-checkbox' data-sku='{$sku}'></td>
+            <td>{$sku}</td>
+            <td>
+                <img title='$imagem' src='$imagem' alt='Imagem do Produto' style='width: 100px; height: auto;'>
+              ";
         if (CENTRAL_SUPERUSER == "superuser") {
             if ($_SESSION["permissao"] === "admin") {
                 echo "<i class='btn-alterar-imagem fa fa-fw fa-camera-retro' data-sku='{$sku}' data-imagem='{$imagem}'></i>
-            <div id='retornoimagem'></div>";
+                <div id='retornoimagem'></div>";
             }
         }
         echo "</td>
-        <td>{$nomeproduto}</td>";
-
+            <td>{$nomeproduto}</td>";
+    
         if (CENTRAL_SUPERUSER == "superuser") {
             echo "<td>R$ {$preco_cd}</td>";
         }
-
+    
+        // Campos editáveis (preços)
         foreach (['preco_salao', 'preco_final', 'preco_mktplace'] as $campo) {
             $valor = $$campo;
             if ($_SESSION["permissao"] === "admin") {
                 echo "<td class='editable' data-sku='{$sku}' data-field='{$campo}' data-value='{$valor}'>
                     <span class='price-text text-primary'>R$ {$valor}</span>
-                    <input type='number' class='price-input' value='{$valor}' style='display:none;'></td>";
+                    <input type='number' class='price-input' value='{$valor}' style='display:none;'>
+                </td>";
             } else {
                 echo "<td><span class='price-text text-primary'>R$ {$valor}</span></td>";
             }
         }
-
-        // Campo Estoque ajustado para ser editável
+    
+        // Campo editável (estoque)
         if ($_SESSION["permissao"] === "admin") {
             echo "<td class='editable' data-sku='{$sku}' data-field='estoque' data-value='{$estoque}'>
-        <span class='stock-text text-primary'><b>{$estoque}</b></span>
-        <input type='number' class='stock-input' value='{$estoque}' style='display:none;'></td>";
+                <span class='stock-text text-primary'><b>{$estoque}</b></span>
+                <input type='number' class='stock-input' value='{$estoque}' style='display:none;'>
+            </td>";
         } else {
             echo "<td><b>{$estoque}</b></td>";
         }
-
+    
         echo "
-         
-       
-        <td>{$categories}</td>
-        <td>{$tags}</td>
-        <td>{$status}</td>
-        <td>
-        <span class='badge badge-success'>{$nome_woo}</span>
-        {$formatted_date_woo}</br>
-        <span class='badge badge-success'>{$nome_shopify}</span>
-        {$formatted_date_shopify}</br>
-        </td>
-    </tr>";
+            <td>{$categories}</td>
+            <td>{$tags}</td>
+            <td>{$status}</td>
+            <td>
+                <span class='badge badge-success'>{$nome_woo}</span>
+                {$formatted_date_woo}</br>
+                <span class='badge badge-success'>{$nome_shopify}</span>
+                {$formatted_date_shopify}</br>
+            </td>
+        </tr>";
     }
 
 
